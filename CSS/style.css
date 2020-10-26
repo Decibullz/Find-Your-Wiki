@@ -1,0 +1,89 @@
+/* Google Fonts */
+
+
+/* Color Variables */
+:root{
+    --black: #000000;
+    --eerie-black: #161616;
+    --jet: #2C2C2C;
+    --onyx: #424242;
+    --davys-grey: #575757;
+    --dim-gray: #6D6D6D;
+    --gray-web: #838383;
+    --spanish-gray: #c9c9c9;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-web);
+    background-color: var(--black);
+    width: 100%;
+    height: 65px;
+}
+input{
+    width: 300px;
+}
+input,button{
+    height:35px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--jet);
+}
+main{
+    flex-grow: 1;
+}
+.flex-ctr{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{
+    display: block;
+    width: 100px;
+    margin: auto; 
+    padding-top: 15px;
+   
+}
+.wiki{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    text-transform: capitalize;
+    background-color: var(--davys-grey);
+    color:var(--spanish-gray)
+}
+p{
+    font-size: 16px;
+    margin: 4px;
+}
+#name, #headline{
+    display: flex; 
+    justify-content: center;
+    margin:10px;
+    font-size: 20px;
+
+}
+
+a{
+    color: var(--eerie-black);
+}
+
+/* .outline{
+    border: 1px solid red;
+} */
