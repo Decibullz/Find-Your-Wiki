@@ -9,7 +9,7 @@ lightweight app that lets you search for a wiki on your favorite topic
 - **CSS3** 
 
 ## SCREENSHOTS
-![wireframe](.Images/wireframe.png)
+![WIREFRAME](./Images/wireframe.png)
 
 # Getting Started
 
