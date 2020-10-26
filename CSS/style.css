@@ -65,6 +65,10 @@ main{
     background-color: var(--davys-grey);
     color:var(--spanish-gray)
 }
+
+.wiki:hover{
+    box-shadow: 1px 1px 15px 10px #ffffff;
+}
 p{
     font-size: 16px;
     margin: 4px;
