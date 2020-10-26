@@ -13,7 +13,7 @@ lightweight app that lets you search for a wiki on your favorite topic
 
 # Getting Started
 
-[click here](#) too see the app!
+[click here](https://decibullz.github.io/Find-your-wiki/) too see the app!
 
 ## Future Enhancements
 - CORS requests
