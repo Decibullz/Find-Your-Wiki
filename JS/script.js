@@ -23,7 +23,7 @@ function getData(evt){
 
     const search = $('#search').val()
     
-    const data = $.ajax({url:`https://cors-anywhere.herokuapp.com/https://www.wikia.com/api/v1/Wikis/ByString?expand=1&string=${search}&lang=en%2C+es&limit=10&batch=1&includeDomain=true/`,
+    const data = $.ajax({url:`${base_url}${search}&lang=en%2C+es&limit=10&batch=1&includeDomain=true/`,
 
     })
         .then(
