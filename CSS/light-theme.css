@@ -1,13 +1,13 @@
 /* Color Variables */
 :root{
-    --black: #000000;
-    --eerie-black: #161616;
-    --jet: #2C2C2C;
-    --onyx: #424242;
-    --davys-grey: #575757;
-    --dim-gray: #6D6D6D;
-    --gray-web: #838383;
-    --spanish-gray: #c9c9c9;
+    --white: #FFFFFFff;
+    --pink-lace: #F0D5FFff;
+    --mauve: #E1ABFFff;
+    --heliotrope: #D381FFff;
+    --phlox: #C456FFff;
+    --electric-purple: #B52CFFff;
+    --vivid-violet: #A602FFff;
+
 
 }
 
@@ -21,7 +21,7 @@ header, footer{
     justify-content: center;
     align-items: center;
     color: var(--gray-web);
-    background-color: var(--black);
+    background-color: var(--mauve);
     width: 100%;
     height: 65px;
 }
@@ -40,7 +40,7 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--jet);
+    background-color: var(--heliotrope);
 }
 main{
     flex-grow: 1;
@@ -62,12 +62,12 @@ main{
     height: auto;
     margin: 10px;
     text-transform: capitalize;
-    background-color: var(--davys-grey);
-    color:var(--spanish-gray)
+    background-color: var(--white);
+    color:#000000;
 }
 
 .wiki:hover{
-    box-shadow: 1px 1px 15px 10px #ffffff;
+    box-shadow: 1px 1px 15px 10px var(--vivid-violet);
 }
 p{
     font-size: 16px;
@@ -82,7 +82,7 @@ p{
 }
 
 a{
-    color: var(--eerie-black);
+    color: #000000;
 }
 
 #dark-mode{
@@ -105,7 +105,7 @@ a{
     }
     
     body {
-      background-color: var(--jet);
+        background-color: var(--heliotrope);
     }
 
     .wiki{
@@ -113,8 +113,8 @@ a{
         height: auto;
         margin: 5px;
         text-transform: capitalize;
-        background-color: var(--davys-grey);
-        color:var(--spanish-gray);
+        background-color: var(--white);
+        color:#000000;
     }
 
     input{
