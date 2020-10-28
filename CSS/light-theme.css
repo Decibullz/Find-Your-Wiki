@@ -112,7 +112,9 @@ a{
         margin:0;
 
     }
-
+    header{
+        font-size: 12px;
+    }
 
     .wiki{
         width: 45%;
