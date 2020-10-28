@@ -56,7 +56,12 @@ function render(){
     $wikis.html(dataArray)
     $(document).ready(function() {
 	
-		$(".description").shorten();
+		$(".description").shorten({
+            "showChars" : 150,
+            "moreText": "Read More",
+            "lessText" : "Read Less",
+
+        });
 	
 	});
 
