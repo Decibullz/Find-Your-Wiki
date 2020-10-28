@@ -104,6 +104,9 @@ a{
         box-sizing: border-box;
         margin:0;
     }    
+    header{
+        font-size: 12px;
+    }
     .wiki{
         width: 45%;
         height: auto;
