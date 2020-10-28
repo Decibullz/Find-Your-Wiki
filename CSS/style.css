@@ -104,9 +104,6 @@ a{
         box-sizing: border-box;
         margin:0;
     }    
-    body {
-      background-color: var(--jet);
-    }
     .wiki{
         width: 45%;
         height: auto;

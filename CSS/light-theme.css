@@ -31,7 +31,7 @@ header, footer{
 }
 header{
     font-family: 'Meddon', cursive;
-
+    
 }
 input{
     width: 300px;
@@ -112,10 +112,7 @@ a{
         margin:0;
 
     }
-    
-    body {
-        background-color: var(--heliotrope);
-    }
+
 
     .wiki{
         width: 45%;
