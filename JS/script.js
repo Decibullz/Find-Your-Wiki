@@ -54,6 +54,7 @@ function render(){
         `
     })
     $wikis.html(dataArray)
+    
     $(document).ready(function() {
 	
 		$(".description").shorten({

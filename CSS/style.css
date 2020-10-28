@@ -8,14 +8,11 @@
     --dim-gray: #6D6D6D;
     --gray-web: #838383;
     --spanish-gray: #c9c9c9;
-
 }
-
 *{
     box-sizing: border-box;
     margin:0;
 }
-
 header, footer{
     display: flex;
     justify-content: center;
@@ -54,8 +51,7 @@ main{
     display: block;
     width: 100px;
     margin: auto; 
-    padding-top: 15px;
-   
+    padding-top: 15px;   
 }
 .wiki{
     width: 30%;
@@ -78,9 +74,7 @@ p{
     justify-content: center;
     margin:10px;
     font-size: 20px;
-
 }
-
 a{
     color: var(--eerie-black);
 }
@@ -101,13 +95,10 @@ a{
     *{
         box-sizing: border-box;
         margin:0;
-
-    }
-    
+    }    
     body {
       background-color: var(--jet);
     }
-
     .wiki{
         width: 45%;
         height: auto;
@@ -116,7 +107,6 @@ a{
         background-color: var(--davys-grey);
         color:var(--spanish-gray);
     }
-
     input{
         width: 150px;
     }
@@ -128,11 +118,4 @@ a{
         justify-content: center;
         margin: 15px 0px;
     }
-
-
-
-
-
-
-
   }
