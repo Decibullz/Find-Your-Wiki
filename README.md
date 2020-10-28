@@ -5,6 +5,7 @@ lightweight app that lets you search for a wiki on your favorite topic
 ## TECH USED 
 - **HTML5**
 - **JAVASCRIPT**
+- **AJAX**
 - **JQUERY**
 - **CSS3** 
 - **Google Fonts**
