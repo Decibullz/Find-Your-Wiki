@@ -49,10 +49,15 @@ function render(){
 
         <p id="lang"><strong>Language: </strong>${wiki.lang}</p>
         <p id="users"><strong>Users: </strong>${wiki.stats.users}</p>
-        <p id="details"><strong>Details: </strong>${wiki.desc}</p>
+        <p id="details" class = 'description' ><strong>Details: </strong>${wiki.desc}</p>
     </article>
         `
     })
     $wikis.html(dataArray)
+    $(document).ready(function() {
+	
+		$(".description").shorten();
+	
+	});
 
 }
