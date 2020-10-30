@@ -9,6 +9,7 @@ lightweight app that lets you search for a wiki on your favorite topic
 - **JQUERY**
 - **CSS3** 
 - **Google Fonts**
+- **Wikia API**
 
 ## SCREENSHOTS
 ![WIREFRAME](./images/wireframe.png)
